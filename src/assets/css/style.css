@@ -1,0 +1,86 @@
+/* Fonts */
+@font-face {
+    font-family: MontBold;
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: MontRegular;
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+
+:root {
+    /* colors */
+    --purple: #7e15e3;
+    --dark: #212529;
+    --orange: #f84234;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: MontRegular, 'sans-serif';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+/* buttons */
+.btn-orange {
+    background: var(--orange);
+    border-radius: 20px;
+    color: #fff;
+    padding: 6px 16px !important;
+}
+
+.btn-black:hover {
+    background: var(--orange);
+    color: #fff;
+    opacity: .8;
+}
+
+/* Navigation */
+.navbar {
+    margin-top: 25px;
+}
+
+.navbar-brand {
+    font-family: MontBold;
+    font-size: 1.5em;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.navbar .nav-auth .nav-link:first-child::after {
+    content: '';
+    border: 1px solid rgba(55, 55, 55, 0.536);
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+/* Banner */
+.banner-title {
+    width: 570px;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+}
