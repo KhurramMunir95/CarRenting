@@ -1,15 +1,23 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
-const Banner = ({ text }) => {
+const Banner = ({ text, img }) => {
   return (
-    <div className='banner section'>
-        <Container>
-            <h1 className='banner-title'>
-                {text}
-            </h1>
+    <section className='banner section'>
+        <Container className='px-4'>
+            <Row>
+              <Col md={6}>
+                <h1 className='banner-title'>
+                    {text}
+                </h1>
+                <Button className='btn-orange'>Get Started</Button>
+              </Col>
+              <Col md={6}>
+                <img src={img} alt="" />
+              </Col>
+            </Row>
         </Container>
-    </div>
+    </section>
   )
 }
 

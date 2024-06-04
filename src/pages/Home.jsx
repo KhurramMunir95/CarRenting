@@ -1,9 +1,10 @@
 import React from 'react'
 import Banner from '../components/Banner'
+import bannerImg from '../assets/media/images/banner-img.png'
 
 const Home = () => {
   return (
-    <Banner text='Discovery The Future Of Fitness With AI Powered Training Plans' />
+    <Banner text="Drive Your Dreams with Our Premium Car Rentals" img={bannerImg} />
   )
 }
 

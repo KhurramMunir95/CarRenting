@@ -24,6 +24,10 @@ body {
     font-family: MontRegular, 'sans-serif';
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: MontBold, 'sans-serif';
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -40,9 +44,10 @@ img {
 /* buttons */
 .btn-orange {
     background: var(--orange);
+    border-color: var(--orange);
     border-radius: 20px;
     color: #fff;
-    padding: 6px 16px !important;
+    padding: 8px 22px !important;
 }
 
 .btn-black:hover {
@@ -79,8 +84,8 @@ img {
 
 /* Banner */
 .banner-title {
-    width: 570px;
-    text-align: center;
-    margin: auto;
+    width: 450px;
     font-weight: 700;
+    padding-top: 60px;
+    margin-bottom: 30px;
 }
