@@ -47,11 +47,15 @@ img {
 
 /* buttons */
 .btn-orange {
-    background: var(--orange);
-    border-color: var(--orange);
+    background: var(--orange) !important;
+    border-color: var(--orange) !important;
     border-radius: 20px;
-    color: #fff;
+    color: #fff !important;
     padding: 8px 22px !important;
+}
+
+.btn-orange:hover {
+    opacity: .8;
 }
 
 .btn-black:hover {
@@ -92,4 +96,10 @@ img {
     font-weight: 700;
     padding-top: 60px;
     margin-bottom: 30px;
+}
+
+/* Vehicle section */
+.vehicle-section .card {
+    background: #f3f1f1;
+    border: none;
 }
