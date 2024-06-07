@@ -9,8 +9,8 @@ const VehicleCard = ({ img }) => {
         <Card.Title className='bold'>Lucid Air Pure</Card.Title>
         <Row className='align-items-center justify-content-between'>
             <Col md={6}>
-                <Card.Text>
-                    <p className='bold m-0'>$100 / Day</p>
+                <Card.Text className='bold m-0'>
+                    $100 / Day
                 </Card.Text>
             </Col>
             <Col md={6}>
